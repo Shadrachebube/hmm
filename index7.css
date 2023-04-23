@@ -1,0 +1,53 @@
+*{
+
+    margin: 0;
+}
+ .container{
+      display: flex;
+      justify-content: space-around;
+      border: 2px solid blue;
+
+
+ }
+ .demo1, .demo2, .demo3{
+
+     height: 7cm;
+     width:8cm ;
+     font-size: 40px;
+     color: white;
+     text-align: center;
+     font-family: Verdana;
+
+
+ }
+
+ .demo1{
+
+    background-color: green;
+ }
+ 
+ .demo2{
+
+    background-color: rgb(209, 181, 23);
+ }
+ 
+.demo3{
+
+    background-color: blue;
+ }
+
+@media(max-width:700px) { *{
+
+    margin: auto;
+}
+.container{
+
+    display: block;
+}
+}
+
+.demo1, .demo2, .demo3{
+
+    margin-top:10px;
+}
+    

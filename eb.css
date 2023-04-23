@@ -1,0 +1,102 @@
+*{background-color: pink;
+  margin: 0;
+  padding:0;}
+
+#main{
+
+    height: 10cm;
+    width: 12cm;
+    background-color: white;
+    margin-top:1cm;
+    margin-left: 1cm;
+    position:absolute ; 
+    /* transition-timing-function:ease-in-out; */
+      /* transition-duration: 5s; */
+     
+
+}
+
+.as{ height:2cm;  
+    width:2cm ; 
+     background-color: yellow;
+     /* -webkit-margin-top:4cm;
+     -moz-margin-top:4cm; */
+      margin:0cm,0,0,0cm;
+      align-items:left;
+     
+      position: absolute;
+      transform:1s ;
+     transition-timing-function:linear;
+      /* transition-duration: 5s; */
+      animation-name:as;
+      animation-duration: 9s;
+      animation-iteration-count: infinite;
+      opacity: 2;
+      border: 10px solid black;
+
+    }
+    h2{ align-items: center;
+     margin-top:30px;
+    }
+    
+    .digit{ line-height: 9px;
+     align-items: center;
+     font-family: Verdana;
+     font-size: 10px;
+     border-radius: 1cm;
+     position:relative ;
+    
+
+
+
+   }
+    
+    @keyframes as{
+
+     25%{  transform:translate(9cm, 0cm);
+           background-color:green;
+           color: white;
+           border-radius:1cm;
+           border-color:blue;
+           
+           margin-left:0cm;
+      }
+      50%{   transform:translate(9cm,6cm) rotate(36deg);
+            background-color: lightblue;
+            border-radius:0.5cm;
+            border-color:chartreuse;
+            color:red ;
+            margin-right:9cm; 
+            
+            
+
+      }
+      75%{
+        transform:translate(0cm, 6.5cm);
+        background-color: red;
+        color: blue;
+        border-radius:1cm;
+        border-color:violet;
+
+        margin-top:0cm; 
+      }
+    /* 100%{background-color: pink;
+        border-radius:0.1cm;
+        border-color:yellow;
+        transform: translate(16cm 0.5cm) rotate(36deg);
+        margin-bottom: 0cm;
+      }   */
+/* 
+      80%{background-color: rgb(255, 192, 221);
+        border-radius:0.05cm;
+        border-color:purple
+      } */
+      /* 100%{background-color: orange;
+        border-radius:0.01cm;
+        border-color:indigo      } */
+        
+      }
+
+    
+
+   
